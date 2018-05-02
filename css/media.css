@@ -1,0 +1,82 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .banner p{
+        font-size: 13px;
+        padding-top: 5px;
+    }
+    .escape_logo a{
+        font-size: 10px;
+    }
+    .banner h1{
+        font-size: 20px;
+        letter-spacing: 1px;
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    #web{
+        font-size: 30px;
+    }
+    .image{
+        padding-top: 140px;
+    }
+    #comm li p{
+        font-size: 12px;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .banner p{
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .banner h1{
+        font-size: 30px;
+        letter-spacing: 1px;
+        padding-top: 0;
+       padding-bottom: 30px;
+    }
+ 
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .banner p{
+        font-size: 24px;
+        padding-top: 67px;
+    }
+    .banner h1{
+        font-size: 40px;
+        letter-spacing: 1px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .banner p{
+        font-size: 27px;
+        padding-top: 100px;
+    }
+    .banner h1{
+        font-size: 50px;
+        letter-spacing: 1px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .banner p{
+        font-size: 30px;
+        padding-top: 150px;
+    }
+    .banner h1{
+        font-size: 60px;
+        letter-spacing: 2px;
+        padding-top: 5px;
+        padding-bottom: 70px;
+    }
+}
